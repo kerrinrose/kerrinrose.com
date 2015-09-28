@@ -1,0 +1,298 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html {
+  font-size: 10px; }
+
+body {
+  background-color: white;
+  margin: 0px;
+  font-family: "Bariol-Face", sans-serif; }
+
+header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 80px;
+  background-color: #fff;
+  margin: 0px;
+  z-index: 999;
+  padding: 5px 5%; }
+  header img {
+    height: 95%; }
+  header nav {
+    text-align: right;
+    float: right;
+    padding: 20px 2%;
+    font-family: 'Bariol-Face';
+    font-size: 2em; }
+  header a {
+    color: #404040;
+    margin-left: 30px;
+    text-decoration: none; }
+    header a:hover {
+      color: #53cce8; }
+
+#hello {
+  padding: 60px 10% 30px 10%;
+  background-color: #53cce8;
+  min-height: 800px;
+  width: 100%;
+  font-size: 2.4em;
+  color: #fff; }
+  #hello h1 {
+    font-size: 3.4em;
+    margin: 0px; }
+  #hello p {
+    margin-top: 10px; }
+
+.intro {
+  padding-top: 70px; }
+
+#work {
+  min-height: 800px;
+  width: 100%;
+  font-size: 2.6em;
+  background-color: #fff; }
+
+.hero {
+  width: 100%;
+  min-height: 450px;
+  display: table; }
+  .hero .container {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    height: 189px;
+    color: #ffffff;
+    padding: 0px 150px; }
+    .hero .container h1 {
+      font-size: 1.8em;
+      margin: 0px 0px 5px 0px; }
+    .hero .container p {
+      font-size: 1em;
+      margin: 0px;
+      padding: 0px; }
+
+.tint {
+  z-index: 1;
+  width: 100%;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  background: rgba(0, 0, 0, 0.5); }
+
+.hero-1 {
+  background: url("../images/dtdc.jpg") no-repeat center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.hero-2 {
+  background: url("../images/solvecity.jpg") no-repeat center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.hero-3 {
+  background: url("../images/hero.jpg") no-repeat center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.hero-4 {
+  background: url("../images/trenton-makes-bridge.jpg") no-repeat center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.work-content {
+  padding: 0px 10% 50px 10%;
+  font-size: .6em;
+  line-height: 1.8em; }
+  .work-content b {
+    font-size: 1.2em; }
+
+.gallery a {
+  padding-right: 10px; }
+
+.gallery-container {
+  padding: 10px 10% 0px 10%;
+  margin: 0px; }
+
+#more-projects {
+  padding-top: 60px;
+  min-height: 800px;
+  width: 100%;
+  font-size: 2.6em;
+  background-color: #f83851;
+  color: #fff; }
+  #more-projects h1 {
+    text-align: center;
+    font-size: 2.5em; }
+  #more-projects h2 {
+    padding: 0px;
+    margin-bottom: 5px; }
+  #more-projects h3 {
+    padding: 0px;
+    margin-top: 0px; }
+
+#quotes {
+  height: 300px;
+  width: 100%;
+  font-size: 3.6em;
+  background-color: #53cce8; }
+  #quotes h1 {
+    color: #199dbc;
+    text-align: center;
+    margin: 0px;
+    padding-top: 100px; }
+
+#contact {
+  background: url("../images/pencils.jpg") no-repeat center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 500px;
+  width: 100%;
+  font-size: 3.4em;
+  background-color: #2fb4ad;
+  margin: 0px; }
+
+#info {
+  margin: 0 10%;
+  padding-top: 100px;
+  color: #404040;
+  text-align: right;
+  line-height: 50px; }
+  #info h1 {
+    color: #199dbc;
+    padding-bottom: 15px;
+    margin: 0px; }
+  #info a {
+    color: #f83851; }
+    #info a:hover {
+      color: #c3071f; }
+
+.vert-top {
+  vertical-align: top; }
+
+.row {
+  width: 100%; }
+
+.grid-1 {
+  width: 100%;
+  display: inline-block; }
+  @media (min-width: 700px) {
+    .grid-1 {
+      width: 3.33333%;
+      margin: 2.5%; } }
+
+.grid-2 {
+  width: 100%;
+  display: inline-block; }
+  @media (min-width: 700px) {
+    .grid-2 {
+      width: 11.66667%;
+      margin: 2.5%; } }
+
+.grid-3 {
+  width: 100%;
+  display: inline-block; }
+  @media (min-width: 700px) {
+    .grid-3 {
+      width: 20%;
+      margin: 2.5%; } }
+
+.grid-4 {
+  width: 100%;
+  display: inline-block; }
+  @media (min-width: 700px) {
+    .grid-4 {
+      width: 28.33333%;
+      margin: 2.5%; } }
+
+.grid-5 {
+  width: 100%;
+  display: inline-block; }
+  @media (min-width: 700px) {
+    .grid-5 {
+      width: 36.66667%;
+      margin: 2.5%; } }
+
+.grid-6 {
+  width: 100%;
+  display: inline-block; }
+  @media (min-width: 700px) {
+    .grid-6 {
+      width: 45%;
+      margin: 2.5%; } }
+
+.grid-7 {
+  width: 100%;
+  display: inline-block; }
+  @media (min-width: 700px) {
+    .grid-7 {
+      width: 53.33333%;
+      margin: 2.5%; } }
+
+.grid-8 {
+  width: 100%;
+  display: inline-block; }
+  @media (min-width: 700px) {
+    .grid-8 {
+      width: 61.66667%;
+      margin: 2.5%; } }
+
+.grid-9 {
+  width: 100%;
+  display: inline-block; }
+  @media (min-width: 700px) {
+    .grid-9 {
+      width: 70%;
+      margin: 2.5%; } }
+
+.grid-10 {
+  width: 100%;
+  display: inline-block; }
+  @media (min-width: 700px) {
+    .grid-10 {
+      width: 78.33333%;
+      margin: 2.5%; } }
+
+.grid-11 {
+  width: 100%;
+  display: inline-block; }
+  @media (min-width: 700px) {
+    .grid-11 {
+      width: 86.66667%;
+      margin: 2.5%; } }
+
+.grid-12 {
+  width: 100%;
+  display: inline-block; }
+  @media (min-width: 700px) {
+    .grid-12 {
+      width: 95%;
+      margin: 2.5%; } }
+
+@font-face {
+  font-family: 'Bariol-Face';
+  src: url("fonts/bariol_regular-webfont.eot");
+  src: url("fonts/bariol_regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/bariol_regular-webfont.woff2") format("woff2"), url("fonts/bariol_regular-webfont.woff") format("woff"), url("fonts/bariol_regular-webfont.ttf") format("truetype"), url("fonts/bariol_regular-webfont.svg#bariol_regularregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/*# sourceMappingURL=style.css.map */
