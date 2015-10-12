@@ -11,6 +11,11 @@ body {
   margin: 0px;
   font-family: 'Proxima Nova', sans-serif; }
 
+hr {
+  width: 80%;
+  border: 1px solid #c9c9c9;
+  margin: 30px auto; }
+
 a {
   color: #199dbc;
   text-decoration: none; }
@@ -275,7 +280,7 @@ em {
     font-family: "Bariol-Face";
     color: #199dbc;
     font-style: italic;
-    margin-left: 25px; }
+    margin: 0px 0px 0px 25px; }
   .case-study .info {
     text-align: right; }
     .case-study .info h2 {

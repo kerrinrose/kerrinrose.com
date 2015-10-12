@@ -25,6 +25,13 @@ body {
     
 }
 
+hr {
+    
+ width: 80%;
+    border: 1px solid #c9c9c9;
+    margin: 30px auto;
+}
+
 
 
    a {
@@ -472,7 +479,8 @@ padding: 0px 10% 20px 10%;
         
     color: darken($cyan, 20%);
         font-style: italic;
-     margin-left: 25px;
+     margin: 0px 0px 0px 25px;
+        
     }
     
     .info {
