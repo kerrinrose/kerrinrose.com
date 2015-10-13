@@ -156,6 +156,15 @@ header {
   background-size: cover;
   background-color: #eee; }
 
+.hero-6 {
+  background: url("../images/hero.jpg") no-repeat center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #eee; }
+
 .work-content {
   padding: 0px 10% 20px 10%;
   font-size: .6em;
@@ -286,6 +295,9 @@ em {
     .case-study .info h2 {
       margin: 20px 0px 5px 0px;
       font-weight: normal; }
+    .case-study .info a {
+      color: #404040;
+      text-decoration: underline; }
   .case-study h1 {
     font-family: "Bariol-Face";
     font-size: 2em;
