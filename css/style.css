@@ -475,6 +475,11 @@ em {
     padding-top: 40px; }
   .case-study .info {
     text-align: center; } }
+.bottom-nav {
+  font-size: 1.3em;
+  width: 80%;
+  margin: auto; }
+
 @media (max-width: 440px) {
   #info {
     padding: 20px 10px;
