@@ -328,6 +328,21 @@ background-color: #f83851;
     
     }
     
+   a {
+        text-align: center;
+    font-size: 1.6em;
+       color: #fff;
+       font-weight: bold;
+      
+      
+       
+   }
+    
+    img {
+        
+        margin-bottom: 15px;
+    }
+    
     h2 {
      padding: 0px; 
         margin-bottom: 5px;
@@ -392,14 +407,20 @@ background-color: #2fb4ad ;
      padding-bottom: 15px;
     margin: 0px;
     }
-    
+     em {
+           color: #f83851; 
+         font-style: normal;
+         background-color: transparent;
+        }
+
     a {
       color: #f83851;
         
         &:hover {
          color: darken(#f83851, 20%);   
         }
-
+        
+       
     
     }
     

@@ -189,6 +189,13 @@ header {
   #more-projects h1 {
     text-align: center;
     font-size: 2.5em; }
+  #more-projects a {
+    text-align: center;
+    font-size: 1.6em;
+    color: #fff;
+    font-weight: bold; }
+  #more-projects img {
+    margin-bottom: 15px; }
   #more-projects h2 {
     padding: 0px;
     margin-bottom: 5px; }
@@ -234,6 +241,10 @@ header {
     color: #199dbc;
     padding-bottom: 15px;
     margin: 0px; }
+  #info em {
+    color: #f83851;
+    font-style: normal;
+    background-color: transparent; }
   #info a {
     color: #f83851; }
     #info a:hover {
