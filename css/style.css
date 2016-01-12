@@ -9,7 +9,7 @@ html {
 body {
   background-color: white;
   margin: 0px;
-  font-family: 'Proxima Nova', sans-serif; }
+  font-family: "proxima-nova", sans-serif; }
 
 hr {
   width: 80%;
@@ -18,7 +18,9 @@ hr {
 
 a {
   color: #199dbc;
-  text-decoration: none; }
+  text-decoration: none;
+  -webkit-transition: color .5s;
+  transition: color .5s; }
   a:hover {
     color: #53cce8; }
 
@@ -42,7 +44,9 @@ header {
   header a {
     color: #404040;
     margin-left: 30px;
-    text-decoration: none; }
+    text-decoration: none;
+    -webkit-transition: color .5s;
+    transition: color .5s; }
     header a:hover {
       color: #53cce8; }
 
@@ -59,14 +63,14 @@ header {
     font-family: "Bariol-Face";
     margin: 0px; }
   #hello p {
-    font-family: 'Proxima Nova';
+    font-family: "proxima-nova", sans-serif;
     margin-top: 10px;
     font-size: .85em;
     line-height: 32px; }
   #hello .scroll {
     text-align: center;
     position: relative;
-    top: -1%;
+    top: -20%;
     font-size: .9em;
     font-family: "Bariol-Face"; }
 
@@ -91,7 +95,7 @@ header {
   background-color: #fff; }
   .main-work .hero {
     width: 100%;
-    min-height: 400px;
+    height: 400px;
     display: table; }
     .main-work .hero .container {
       display: table-cell;
@@ -165,6 +169,13 @@ header {
   background-size: cover;
   background-color: #eee; }
 
+.hero-7 {
+  background: url("../images/thesis.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
 .work-content {
   padding: 0px 10% 20px 10%;
   font-size: .6em;
@@ -201,21 +212,27 @@ header {
     margin-bottom: 5px; }
   #more-projects p {
     font-size: 1.1em;
-    font-family: 'Proxima Nova';
+    font-family: "proxima-nova", sans-serif;
     padding: 0px;
     margin-top: 10px; }
 
 #quotes {
   font-family: "Bariol-Face";
-  height: 250px;
+  height: 80px;
   width: 100%;
   font-size: 3em;
-  background-color: #53cce8; }
+  background-color: #53cce8;
+  margin-top: -30px; }
   #quotes h1 {
     color: #199dbc;
     text-align: center;
-    margin: 0px;
-    padding-top: 80px; }
+    margin: 0px; }
+  #quotes p {
+    text-align: center;
+    color: #199dbc;
+    font-size: .7em;
+    padding-top: 20px;
+    margin: 0px; }
 
 #contact {
   font-family: "Bariol-Face";
@@ -228,7 +245,7 @@ header {
   min-height: 500px;
   width: 100%;
   font-size: 3.4em;
-  background-color: #2fb4ad;
+  background-color: #f0d600;
   margin: 0px; }
 
 #info {
@@ -246,7 +263,9 @@ header {
     font-style: normal;
     background-color: transparent; }
   #info a {
-    color: #f83851; }
+    color: #f83851;
+    -webkit-transition: color .5s;
+    transition: color .5s; }
     #info a:hover {
       color: #c3071f; }
 
@@ -257,14 +276,17 @@ header {
   padding: 10px 25px;
   color: #f83851;
   border: 2px solid #f83851;
-  text-align: center; }
+  text-align: center;
+  -webkit-transition: background-color .5s;
+  transition: background-color .5s;
+  color: .5s; }
   .readMoreBtn:hover {
-    color: #c3071f;
-    border: 2px solid #c3071f; }
+    background-color: #f83851;
+    color: #fff; }
 
 .project-hero {
   width: 100%;
-  min-height: 550px;
+  height: 550px;
   display: table;
   font-size: 2.6em; }
   .project-hero .container {
@@ -338,6 +360,8 @@ em {
 .grid-1 {
   width: 100%;
   display: inline-block; }
+  .grid-1 img {
+    width: 100%; }
   @media (min-width: 800px) {
     .grid-1 {
       width: 3.33333%;
@@ -347,6 +371,8 @@ em {
 .grid-2 {
   width: 100%;
   display: inline-block; }
+  .grid-2 img {
+    width: 100%; }
   @media (min-width: 800px) {
     .grid-2 {
       width: 11.66667%;
@@ -356,6 +382,8 @@ em {
 .grid-3 {
   width: 100%;
   display: inline-block; }
+  .grid-3 img {
+    width: 100%; }
   @media (min-width: 800px) {
     .grid-3 {
       width: 20%;
@@ -365,6 +393,8 @@ em {
 .grid-4 {
   width: 100%;
   display: inline-block; }
+  .grid-4 img {
+    width: 100%; }
   @media (min-width: 800px) {
     .grid-4 {
       width: 28.33333%;
@@ -374,6 +404,8 @@ em {
 .grid-5 {
   width: 100%;
   display: inline-block; }
+  .grid-5 img {
+    width: 100%; }
   @media (min-width: 800px) {
     .grid-5 {
       width: 36.66667%;
@@ -383,6 +415,8 @@ em {
 .grid-6 {
   width: 100%;
   display: inline-block; }
+  .grid-6 img {
+    width: 100%; }
   @media (min-width: 800px) {
     .grid-6 {
       width: 45%;
@@ -392,6 +426,8 @@ em {
 .grid-7 {
   width: 100%;
   display: inline-block; }
+  .grid-7 img {
+    width: 100%; }
   @media (min-width: 800px) {
     .grid-7 {
       width: 53.33333%;
@@ -401,6 +437,8 @@ em {
 .grid-8 {
   width: 100%;
   display: inline-block; }
+  .grid-8 img {
+    width: 100%; }
   @media (min-width: 800px) {
     .grid-8 {
       width: 61.66667%;
@@ -410,6 +448,8 @@ em {
 .grid-9 {
   width: 100%;
   display: inline-block; }
+  .grid-9 img {
+    width: 100%; }
   @media (min-width: 800px) {
     .grid-9 {
       width: 70%;
@@ -419,6 +459,8 @@ em {
 .grid-10 {
   width: 100%;
   display: inline-block; }
+  .grid-10 img {
+    width: 100%; }
   @media (min-width: 800px) {
     .grid-10 {
       width: 78.33333%;
@@ -428,6 +470,8 @@ em {
 .grid-11 {
   width: 100%;
   display: inline-block; }
+  .grid-11 img {
+    width: 100%; }
   @media (min-width: 800px) {
     .grid-11 {
       width: 86.66667%;
@@ -437,6 +481,8 @@ em {
 .grid-12 {
   width: 100%;
   display: inline-block; }
+  .grid-12 img {
+    width: 100%; }
   @media (min-width: 800px) {
     .grid-12 {
       width: 95%;
@@ -495,5 +541,16 @@ em {
   #info {
     padding: 20px 10px;
     text-align: center; } }
+.days {
+  padding: 100px 3%;
+  width: 100%;
+  box-sizing: border-box; }
+  .days div {
+    padding: 0px;
+    margin: 0px 0px -3px 0px; }
+
+.grid-100 {
+  width: 33%;
+  display: inline-block; }
 
 /*# sourceMappingURL=style.css.map */

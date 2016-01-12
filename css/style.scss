@@ -19,7 +19,7 @@ body {
     
  background-color: white;
  margin: 0px;  
- font-family: 'Proxima Nova', sans-serif;
+ font-family: "proxima-nova", sans-serif;
 
  
     
@@ -37,6 +37,8 @@ hr {
    a {
        color: darken($cyan,20%);
         text-decoration: none;
+        -webkit-transition: color .5s;
+        transition: color .5s;
 
         &:hover { color: $cyan;}
     }
@@ -64,12 +66,15 @@ padding: 5px 5%;
         padding: 20px 2%;
         font-family: 'Bariol-Face';
         font-size: 2em;
+        
     }
     
     a {
         color: $mainBlack;
         margin-left: 30px;
         text-decoration: none;
+        -webkit-transition: color .5s;
+        transition: color .5s;
         
         &:hover {
             
@@ -105,7 +110,7 @@ color: #fff;
     }
     
     p {
-        font-family: 'Proxima Nova';
+        font-family: "proxima-nova", sans-serif;
      margin-top: 10px; 
         font-size: .85em;
         line-height: 32px;
@@ -114,7 +119,7 @@ color: #fff;
     
     .scroll {
     
- text-align: center; position: relative; top:-1%; font-size: .9em;
+ text-align: center; position: relative; top:-20%; font-size: .9em;
     font-family: $bariol;
 }
 }
@@ -160,7 +165,7 @@ padding: 0px 0px;
 .hero {
      
  width: 100%;
- min-height: 400px;
+ height: 400px;
 display:table;
     
     .container {
@@ -245,6 +250,7 @@ background-size: cover;
     
  background: url('../images/dtdc.jpg') no-repeat center center;
 background-attachment: fixed;
+    
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -274,6 +280,17 @@ background-size: cover;
     background-color: #eee;
 }
 
+.hero-7 {
+    
+ background: url('../images/thesis.jpg') no-repeat center center;
+
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;  
+    
+    
+}
 
 
 
@@ -351,7 +368,7 @@ background-color: #f83851;
     
     p {
         font-size: 1.1em;
-        font-family: 'Proxima Nova';
+        font-family: "proxima-nova", sans-serif;
      padding: 0px; 
         margin-top: 10px;
     }
@@ -361,18 +378,27 @@ background-color: #f83851;
 
 #quotes {
     font-family: $bariol;
-      height: 250px;
+      height: 80px;
 width: 100%;
 font-size: 3em;
 background-color:  $cyan  ;
+    margin-top: -30px;
     
     h1 {
         color: darken( $cyan, 20%);
         text-align: center;
      margin: 0px;
-        padding-top:80px;
+       // padding-top:80px;
         
     }
+    
+    p {
+     text-align: center;
+       color: darken( $cyan, 20%);
+        font-size: .7em;
+        padding-top: 20px;
+        margin: 0px;
+    } 
     
 }
 
@@ -387,7 +413,7 @@ background-size: cover;
       min-height: 500px;
 width: 100%;
 font-size: 3.4em;
-background-color: #2fb4ad ;
+background-color: #f0d600 ;
     margin: 0px;
    
     
@@ -415,6 +441,8 @@ background-color: #2fb4ad ;
 
     a {
       color: #f83851;
+         -webkit-transition: color .5s;
+        transition: color .5s;
         
         &:hover {
          color: darken(#f83851, 20%);   
@@ -436,14 +464,17 @@ background-color: #2fb4ad ;
       color: $pink;
       border: 2px solid $pink;
       text-align: center;
-      
+      -webkit-transition: background-color .5s;
+        transition: background-color .5s;
+      color: .5s;
       
       
       
       &:hover {
    
-          color: darken($pink, 20%);
-          border: 2px solid darken($pink, 20%);
+          background-color: $pink;
+          color: #fff;
+         // border: 2px solid darken($pink, 20%);
         
       
       }
@@ -457,7 +488,7 @@ background-color: #2fb4ad ;
 .project-hero {
      
  width: 100%;
- min-height: 550px;
+ height: 550px;
 display:table;
     font-size: 2.6em;
     
@@ -594,6 +625,11 @@ $margin: 2.5%;
       width: 100%;
      display: inline-block;
         
+        img {
+            width: 100%;
+            
+        }
+        
    // background-color: antiquewhite;
         
         @media(min-width: 800px) {
@@ -714,4 +750,23 @@ $margin: 2.5%;
         text-align: center;
     }
     
+}
+
+
+.days {
+    
+ padding: 100px 3%; 
+    width: 100%;
+    box-sizing: border-box;
+    
+    div {
+     padding: 0px;
+        
+        margin: 0px 0px -3px 0px;
+    }
+}
+
+.grid-100 {
+ width: 33%;
+    display: inline-block;
 }
