@@ -336,6 +336,28 @@ em {
     font-size: 2em;
     padding: 0px;
     margin: 0px; }
+  .case-study #research {
+    margin-left: 2.5%;
+    background-color: #f3f3f3; }
+  .case-study .dropdown {
+    cursor: pointer;
+    margin-left: 2.5%;
+    padding: 10px 50px 10px 5px;
+    color: #f83851;
+    border: 2px solid #f83851;
+    text-align: left;
+    -webkit-transition: background-color .5s;
+    transition: background-color .5s;
+    color: .5s; }
+    .case-study .dropdown:hover {
+      background-color: #f83851;
+      color: #fff; }
+    .case-study .dropdown:after {
+      content: '+';
+      float: right;
+      font-size: 30pt;
+      position: relative;
+      top: -12px; }
   .case-study p {
     font-size: 1em;
     line-height: 2em; }
@@ -547,7 +569,7 @@ em {
   box-sizing: border-box; }
   .days div {
     padding: 0px;
-    margin: 0px 0px -3px 0px; }
+    margin: -3px 0px -3px 0px; }
 
 .grid-100 {
   width: 33%;

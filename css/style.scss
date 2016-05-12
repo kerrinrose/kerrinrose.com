@@ -508,6 +508,8 @@ height: 189px;
        
         }
         
+       
+        
          p {
             
          font-size: 1em; 
@@ -571,6 +573,43 @@ padding: 0px 10% 20px 10%;
         margin: 0px;
     }
     
+    #research {
+     margin-left: 2.5%; 
+        background-color: #f3f3f3;
+    }
+    
+     .dropdown {
+    cursor: pointer;
+ margin-left: 2.5%;
+padding: 10px 50px 10px 5px;
+  
+      color: $pink;
+      border: 2px solid $pink;
+      text-align: left;
+      -webkit-transition: background-color .5s;
+        transition: background-color .5s;
+      color: .5s;
+      
+      
+      
+      &:hover {
+   
+          background-color: $pink;
+          color: #fff;
+         // border: 2px solid darken($pink, 20%);
+        
+      
+      }
+         
+         &:after {
+          content: '+';
+            float: right;
+             font-size: 30pt;
+             position: relative;
+             top: -12px;
+         }
+}
+    
     p{
         
      font-size: 1em;
@@ -587,6 +626,7 @@ padding: 0px 10% 20px 10%;
     
  text-align: left;   
 }
+
 
 
 
@@ -762,7 +802,7 @@ $margin: 2.5%;
     div {
      padding: 0px;
         
-        margin: 0px 0px -3px 0px;
+        margin: -3px 0px -3px 0px;
     }
 }
 
