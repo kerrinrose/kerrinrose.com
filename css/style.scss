@@ -210,6 +210,18 @@ top: 0px;
 left: 0px;
 background: rgba(#000, 0.5);    
 }
+
+
+.tint-shelflife {
+    
+  z-index: 1;
+ 
+width: 100%;
+position: relative;
+top: 0px;
+left: 0px;
+background: rgba(#4977bb, 0.85);  
+}
 .hero-1 {
     
  background: url('../images/empower.jpg') no-repeat center center;
@@ -292,6 +304,25 @@ background-size: cover;
     
 }
 
+.hero-8 {
+    
+ background: url('../images/shelflife-header.jpg') no-repeat center center;
+
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;  
+    
+    
+}
+
+#fix {
+    
+ position:absolute;
+    bottom: 0px;
+    width: 500px;
+    right: 75px;
+}
 
 
 
@@ -488,7 +519,7 @@ background-color: #f0d600 ;
 .project-hero {
      
  width: 100%;
- height: 550px;
+ height: 600px;
 display:table;
     font-size: 2.6em;
     
@@ -533,6 +564,83 @@ em {
     
 }
 
+ .grey {
+      background-color: #f3f3f3;    
+       
+   }
+
+    .blue {
+        
+        background-color: #4977BA;
+        
+        
+            img {
+       width: 70%; 
+        
+    }
+     
+        p {
+            color: #fff;
+            font-size: 16pt;
+            line-height: 1.5em !important;
+        }
+        
+        
+    }
+.highlight {
+    
+    font-family: "Proxima Nova";
+     font-size: 1.6em; 
+padding: 60px 14% 60px 14%;
+    margin: 0;
+    
+  
+  
+
+    
+
+    
+    h2 {
+         font-family: $bariol;
+     text-align: center;
+        font-size: 22pt;
+        font-style: normal !important;
+        margin-left: 15px;
+    }
+    
+    
+        h3 {
+         font-family: $bariol;
+            color: darken(#67C5B5,10%);
+     text-align: center;
+        font-size: 18pt;
+        font-style: normal !important;
+             margin: 20px 10%;
+            line-height: 1.5em;
+    }
+    
+    
+    
+    p {
+        margin: 20px 10%;
+      
+       line-height: 2.2em;
+        text-align: center;
+        
+    }
+    
+    
+    .case-study {
+        
+     p {
+         
+       font-size: 14pt; 
+         text-align: left;
+     }
+        
+    }
+}
+
 .case-study {
     
  font-size: 1.6em; 
@@ -545,7 +653,16 @@ padding: 0px 10% 20px 10%;
         
     color: darken($cyan, 20%);
         font-style: italic;
-     margin: 0px 0px 0px 25px;
+     margin: 0px 0px 0px 0px;
+        
+    }
+    
+    h3 {
+            font-weight: normal;
+    font-family: $bariol;
+        color: darken($cyan, 20%);
+        text-align: left;
+        
         
     }
     
@@ -576,13 +693,14 @@ padding: 0px 10% 20px 10%;
     #research {
      margin-left: 2.5%; 
         background-color: #f3f3f3;
+        display: none;
     }
     
      .dropdown {
     cursor: pointer;
  margin-left: 2.5%;
 padding: 10px 50px 10px 5px;
-  
+  margin-top: 20px;
       color: $pink;
       border: 2px solid $pink;
       text-align: left;
@@ -609,6 +727,34 @@ padding: 10px 50px 10px 5px;
              top: -12px;
          }
 }
+    
+      .dropdownActive {
+    cursor: pointer;
+ margin-left: 2.5%;
+padding: 10px 50px 10px 5px;
+  background-color: #f83851;
+      color: #fff; 
+
+      text-align: left;
+      -webkit-transition: background-color .5s;
+        transition: background-color .5s;
+      color: .5s;
+      
+      
+      
+    
+         
+         &:after {
+          content: '-';
+            float: right;
+             font-size: 29pt;
+             position: relative;
+             top: -12px;
+         }
+}
+   
+    
+    
     
     p{
         
@@ -810,3 +956,16 @@ $margin: 2.5%;
  width: 33%;
     display: inline-block;
 }
+
+.smol {
+    img {
+        width: 60% !important;  }
+    
+    p {
+        
+   width: 60% !important;
+        font-size: 14pt;
+    }
+    
+}
+

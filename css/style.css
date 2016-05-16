@@ -121,6 +121,14 @@ header {
   left: 0px;
   background: rgba(0, 0, 0, 0.5); }
 
+.tint-shelflife {
+  z-index: 1;
+  width: 100%;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  background: rgba(73, 119, 187, 0.85); }
+
 .hero-1 {
   background: url("../images/empower.jpg") no-repeat center center;
   -webkit-background-size: cover;
@@ -175,6 +183,19 @@ header {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+
+.hero-8 {
+  background: url("../images/shelflife-header.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+#fix {
+  position: absolute;
+  bottom: 0px;
+  width: 500px;
+  right: 75px; }
 
 .work-content {
   padding: 0px 10% 20px 10%;
@@ -286,7 +307,7 @@ header {
 
 .project-hero {
   width: 100%;
-  height: 550px;
+  height: 600px;
   display: table;
   font-size: 2.6em; }
   .project-hero .container {
@@ -314,6 +335,45 @@ header {
 em {
   background-color: #daf4fa; }
 
+.grey {
+  background-color: #f3f3f3; }
+
+.blue {
+  background-color: #4977BA; }
+  .blue img {
+    width: 70%; }
+  .blue p {
+    color: #fff;
+    font-size: 16pt;
+    line-height: 1.5em !important; }
+
+.highlight {
+  font-family: "Proxima Nova";
+  font-size: 1.6em;
+  padding: 60px 14% 60px 14%;
+  margin: 0; }
+  .highlight h2 {
+    font-family: "Bariol-Face";
+    text-align: center;
+    font-size: 22pt;
+    font-style: normal !important;
+    margin-left: 15px; }
+  .highlight h3 {
+    font-family: "Bariol-Face";
+    color: #45b4a1;
+    text-align: center;
+    font-size: 18pt;
+    font-style: normal !important;
+    margin: 20px 10%;
+    line-height: 1.5em; }
+  .highlight p {
+    margin: 20px 10%;
+    line-height: 2.2em;
+    text-align: center; }
+  .highlight .case-study p {
+    font-size: 14pt;
+    text-align: left; }
+
 .case-study {
   font-size: 1.6em;
   padding: 0px 10% 20px 10%; }
@@ -322,7 +382,12 @@ em {
     font-family: "Bariol-Face";
     color: #199dbc;
     font-style: italic;
-    margin: 0px 0px 0px 25px; }
+    margin: 0px 0px 0px 0px; }
+  .case-study h3 {
+    font-weight: normal;
+    font-family: "Bariol-Face";
+    color: #199dbc;
+    text-align: left; }
   .case-study .info {
     text-align: right; }
     .case-study .info h2 {
@@ -338,11 +403,13 @@ em {
     margin: 0px; }
   .case-study #research {
     margin-left: 2.5%;
-    background-color: #f3f3f3; }
+    background-color: #f3f3f3;
+    display: none; }
   .case-study .dropdown {
     cursor: pointer;
     margin-left: 2.5%;
     padding: 10px 50px 10px 5px;
+    margin-top: 20px;
     color: #f83851;
     border: 2px solid #f83851;
     text-align: left;
@@ -356,6 +423,22 @@ em {
       content: '+';
       float: right;
       font-size: 30pt;
+      position: relative;
+      top: -12px; }
+  .case-study .dropdownActive {
+    cursor: pointer;
+    margin-left: 2.5%;
+    padding: 10px 50px 10px 5px;
+    background-color: #f83851;
+    color: #fff;
+    text-align: left;
+    -webkit-transition: background-color .5s;
+    transition: background-color .5s;
+    color: .5s; }
+    .case-study .dropdownActive:after {
+      content: '-';
+      float: right;
+      font-size: 29pt;
       position: relative;
       top: -12px; }
   .case-study p {
@@ -574,5 +657,11 @@ em {
 .grid-100 {
   width: 33%;
   display: inline-block; }
+
+.smol img {
+  width: 60% !important; }
+.smol p {
+  width: 60% !important;
+  font-size: 14pt; }
 
 /*# sourceMappingURL=style.css.map */
