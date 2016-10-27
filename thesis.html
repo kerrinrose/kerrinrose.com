@@ -24,6 +24,7 @@
         <nav>
               <a href="index.html#hello">Hello</a>
             <a href="index.html#worknav">My Work</a>
+            <a href="about.html">About Me</a>
             <a href="index.html#contact">Contact</a>
         </nav>
     </header>
@@ -63,7 +64,7 @@
     <div class="grid-8 vert-top">
         <h1>How might technology be utilized to encourage consumers to waste less food in their households? </h1>
         <p>
-                This is the question that began my senior thesis. It led to a year long journey into understanding consumer habits, rapid prototyping and iteration, experimenting, many sleepless nights, debugging, sketching, and animating in preparation for my senior show. Shelf Life is the product that came out of this process. A mix of my passionates for design, development, and physical computing, it was my capstone project for my degree in Interactive Multimedia.
+                This is the question that began my senior thesis. It led to a year long journey into understanding consumer habits, rapid prototyping and iteration, experimenting, many sleepless nights, debugging, sketching, and animating in preparation for my senior show. Shelf Life is the product that came out of this process. A mix of my passions for design, development, and physical computing, it was my capstone project for my degree in Interactive Multimedia.
         
         </p>
         
@@ -158,7 +159,7 @@
                 </video> 
             </div><div class="grid-6">
                   <h3>Generate Recipes</h3> 
-                <P> Select different ingredients from your item list to generate recipes, and find a use for leftovers or fod about to go bad. Shelf Life will let you know what else you'll need.  </P>
+                <P> Select different ingredients from your item list to generate recipes, and find a use for leftovers or food about to go bad. Shelf Life will let you know what else you'll need.  </P>
                 
             </div>
             
@@ -366,6 +367,14 @@ The first step of the process was to figure out a target audience for my solutio
                 
          
         });
+        
+        
+           $('#top').on('click', function (e) {
+        e.preventDefault();
+        $('html,body').animate({
+            scrollTop: 0
+        }, 700);
+    });
         
     </script>
 </body>
